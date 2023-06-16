@@ -1,0 +1,131 @@
+*{
+  margin:0px ;
+}
+body {
+  background-color: #fff;
+}
+
+@media (min-width: 30em) and (max-width: 80em) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+
+
+.first{
+    background-size: cover;
+    width: 100%;
+    height:750px;
+}
+h1{
+    
+    text-align:center;
+    color: darkred;
+}
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    font-style: italic;
+    color: #fff;
+    font-family: 'Vina Sans', cursive;
+
+  }
+
+    /* Top right text */
+.nav{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 30px;
+   
+  }
+  a{
+    margin:10px;
+    color: #fff;
+  }
+  button{
+    position: absolute;
+    top: 60%;
+    left: 650px;
+    font-size: 30px;
+    color:orange;
+    background-color: cornsilk;
+  }
+  button:hover{
+    color: #fff;
+    background-color:black;
+  }
+  .img1{
+    width:300px;
+    height:400px;
+   
+  }
+  .Chicken{
+    text-align: center;
+    color: red;
+  }
+  .btn1{
+    color:black;
+    background-color: bisque;
+    margin-left: 30px;
+  }
+  .btn1:hover{
+    color:white;
+    background-color: black;
+  }
+  .btn2{
+    color:black;
+    background-color: bisque;
+  }
+  .btn2:hover{
+    color:white;
+    background-color: black;
+  }
+  .div1{
+    width:250px;
+    height:300px;
+    background-color: white;
+    color:rgb(6,6,105);
+   border:solid brown;
+   margin: 20px;
+
+  
+}
+.second{
+  width:250px;
+  height:200px;
+}
+.Mandi{
+  text-align:center;
+  color:red;
+}
+.Friedrice{
+  text-align:center;
+  color:red;
+}
+#fooditem1{
+ display: flex;
+ margin: 20px;
+}
+.head{
+  color:black;
+  text-align: center;
+}
+.contacts{
+  color:white;
+  text-decoration: none;
+  text-align:justify;
+}
+#contact{
+width:1515px;
+  background-color: black;
+ 
+}
+.for{
+  color:white;
+}
